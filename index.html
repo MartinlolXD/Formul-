@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objednávkový formulář</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <div class="formDiv">
+        <form id="myForm">
+            <br><br>
+            <fieldset>
+            <label for="name">Jméno:</label>
+            <input type="text" id="name" name="name" placeholder="Zadejte jméno">
+            <br><br>
+            <label for="surname">Přijmení:</label>
+            <input type="text" id="surname" name="surname" placeholder="Zadejte přijmení">
+            <br>
+            
+        </fieldset>
+            <br>
+            
+            <fieldset>
+            <label for="adresa">Adresa</label>
+            <input type="text" id="adress" name="adress" placeholder="Zadejte adresu">
+            <br><br>
+            <label for="Město">Město</label>
+            <input type="text" id="city" name="city" placeholder="Zadejte město">
+            <br><br>
+            <label for="pcč">PSČ</label>
+            <input type="text" id="psč" name="psč" placeholder="Zadejte Poštovní směrovací číslo">
+        </fieldset>
+
+
+            <br>
+            <fieldset>
+            <label for="phoneNum">Tel. číslo</label>
+            <input type="text" id="phoneNum" name="phoneNum" placeholder="+420 ">
+            
+            <br><br>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Example@email.com">
+        </fieldset>
+            <br>
+            <label for="payment">Vyberte způsob platby</label>
+            <select name="payment" id="payment">
+              <option value="creditCard">Kreditní karta</option>
+              <option value="PSC">Paysafecard</option>
+              <option value="bankAcc">Bankovní účet</option>
+              <option value="Hand">Dobírkou</option>
+            </select>
+            <br><br>
+            <button type="button" id="submitBtn">Pokračovat</button>
+        </form> 
+    </div>
+
+</body>
+</html>
